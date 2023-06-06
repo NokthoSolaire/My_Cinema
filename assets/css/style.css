@@ -1,0 +1,134 @@
+@import 'https://fonts.googleapis.com/css?family=Damion|Work+Sans:900';
+
+@font-face {
+	font-family: "RoadRage";
+	src: url(/assets/fonts/Road_Rage.otf) format("truetype");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/assets/misc/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #f222ff;
+    padding: 40px 50px;
+}
+
+.header h1 {
+    font-family: 'RoadRage';
+    color:#f222ff;
+    text-shadow: 0 0 50px #f351ff;
+    font-size: 55px;
+}
+.header i {
+    color:#f222ff;
+    text-shadow: 0 0 50px #f351ff;
+    font-size: 55px;
+    cursor: pointer;
+}
+.navbar a{
+    font-family: 'Damion';
+    color:#f222ff;
+    font-size: 32px;
+    text-decoration: none;
+    padding: 5px;
+    
+    cursor: pointer;
+}
+
+.navbar {
+    /* text-shadow: 0 0 50px #eca8bd; */
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    text-shadow: 0 0 50px #eca8bd;
+    -webkit-text-stroke: 0.035em;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+    
+
+.searchbar{
+    position: relative;
+    top: 80px;
+    font-family: 'Damion';
+    color:#eca8bd;
+    padding-left: 60px;
+    font-size: 32px;
+    text-shadow: 0 3px 20px rgb(0, 0, 0);
+    overflow: scroll 2s;
+}
+
+#pass{
+    opacity: 1;
+    box-shadow: 0 0 50px #f351ff;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: 'RoadRage';
+    color: #f351ff;
+}
+
+option{
+    background-color: black;
+    opacity: 0;
+}
+
+form{
+    margin-bottom: 40px;
+}
+
+.bar{
+    opacity: 1;
+    box-shadow: 0 0 50px #f351ff;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: 'RoadRage';
+    color: #f351ff;
+}
+
+input::placeholder{
+    color: #f351ff;
+}
+
+
+.button{
+    box-shadow: 0 0 50px #f351ff;
+    opacity: 1;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: 'RoadRage';
+    color: #f351ff;
+
+    
+}
+
+/* Button subscribe */
+/* .subs{
+    display: inline-block; */
+    
+    
+
